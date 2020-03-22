@@ -103,8 +103,8 @@ def movies_with_directors_set(source)
     movies = source[director_index][:movies]
     all = movies_with_director_key(name, movies)
     director_set << all
+    director_index += 1
   end
-  director_index += 1
 end
 
 # ----------------    End of Your Code Region --------------------
